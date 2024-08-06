@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Lexend;
+    src: url(Lexend.ttf);
+}
+
+p
+{
+    font-family: 'Lexend';
+    color: white;
+    text-shadow: 4px 3px #E9AF39;
+}   
+
+.video-container
+{
+    background: url('1.mp4');
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 70px;
+    text-shadow:4px 3px white;
+    font-family: 'Lexend';
+}
+
+footer{
+    padding-top: 4rem;
+    color: black;
+    text-align: center;
+    font-family: 'Lexend';
+}
