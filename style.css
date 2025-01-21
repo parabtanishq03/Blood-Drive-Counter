@@ -3,6 +3,13 @@
     src: url(Lexend.ttf);
 }
 
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), 
+       screen and (min-resolution: 144dpi) {
+    video {
+        transform: scale(1.001); /* Slightly scale to hide black lines */
+    }
+}
+
 p
 {
     font-family: 'Lexend';
@@ -25,7 +32,7 @@ h1 {
 }
 
 footer{
-    padding-top: 2rem;
+    padding-top: 4rem;
     color: black;
     text-align: center;
     font-family: 'Lexend';
